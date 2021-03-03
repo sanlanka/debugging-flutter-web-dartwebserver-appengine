@@ -3,5 +3,8 @@ description: Web server sandbox
 version: 0.0.1
 author: Brandon Donnelson
 
+environment:
+  sdk: '>=2.10.0 <3.0.0'
+
 dependencies:
    mime_type: 0.3.1

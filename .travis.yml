@@ -4,7 +4,7 @@ dart:
   - stable
 
 before_install:
-- openssl aes-256-cbc -K $encrypted_fcd3721d6cbf_key -iv $encrypted_fcd3721d6cbf_iv -in donnelson-sandbox-flex-c774ac1c9428.json.enc -out ./donnelson-sandbox-flex-c774ac1c9428.json -d
+- openssl aes-256-cbc -K $encrypted_fcd3721d6cbf_key -iv $encrypted_fcd3721d6cbf_iv -in education-evaluation-slanka.json.enc -out ./education-evaluation-slanka.json -d
 
 before_script:
   # https://flutter.dev/docs/get-started/web
@@ -31,8 +31,8 @@ script:
 deploy:
   edge: true
   provider: gae
-  keyfile: "./donnelson-sandbox-flex-c774ac1c9428.json"
-  project: "donnelson-sandbox-flex"
+  keyfile: "./education-evaluation-slanka.json"
+  project: "education-evaluation"
   skip_cleanup: true
 
 
